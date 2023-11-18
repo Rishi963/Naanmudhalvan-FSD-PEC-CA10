@@ -1,0 +1,49 @@
+.navresponsive {
+    display: block;
+  }
+  .imagecarousel {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+  }
+  
+  .title_product {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .product_display {
+    width: 100%;
+    /* height: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cardstyle{
+    padding: 40px;
+  }
+  .footer{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  @media only screen and (max-width: 500px) {
+    .navresponsive {
+      display: none;
+    }
+    .imagecarousel {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 350px;
+      width: 100%;
+    }
+  }
+  
